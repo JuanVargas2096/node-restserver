@@ -7,11 +7,6 @@ const _ = require('underscore');
 const Usuario = require('../models/usuario');
 const app = express();
 
-app.get('/', (req, res) => {
-    console.log('Raiz del sistema');
-})
-
-
 app.get('/usuario', (req, res) => {
 
 
