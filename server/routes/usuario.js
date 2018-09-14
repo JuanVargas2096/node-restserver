@@ -7,7 +7,7 @@ const _ = require('underscore');
 const Usuario = require('../models/usuario');
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/', (err, res) => {
     console.log('Raiz /');
 
 
