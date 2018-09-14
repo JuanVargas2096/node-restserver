@@ -10,15 +10,9 @@ const app = express();
 app.get('/', (err, res) => {
     console.log('Raiz /');
 
-
-    if (err) {
-        return res.status(400).json({
-            ok: false
-        })
-    }
-
     res.status(200).json({
         ok: true
+        message: 'Directorio Raiz'
     })
 })
 
